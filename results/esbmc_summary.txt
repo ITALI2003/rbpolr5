@@ -1,0 +1,15 @@
+=== ESBMC: legacy (src/legacy/vote_parser_legacy.c) ===
+✗ FAILED: 'dereference failure: NULL pointer at file src/legacy/vote_parser_legacy.c line 45 column 5 function store_vote'
+✗ FAILED: 'array bounds violated: array `g_slots' upper bound at file src/legacy/vote_parser_legacy.c line 44 column 5 function store_vote'
+✗ FAILED: 'array bounds violated: array `g_slots' lower bound at file src/legacy/vote_parser_legacy.c line 44 column 5 function store_vote'
+✗ FAILED: 'division by zero at file src/legacy/vote_parser_legacy.c line 39 column 5 function vote_average'
+✗ FAILED: 'dereference failure: Access to object out of bounds at file src/legacy/vote_parser_legacy.c line 38 column 9 function vote_average'
+✗ FAILED: 'dereference failure: array bounds violated at file src/legacy/vote_parser_legacy.c line 30 column 9 function parse_vote'
+✗ FAILED: 'dereference failure: Access to object out of bounds at file src/legacy/vote_parser_legacy.c line 30 column 9 function parse_vote'
+Properties: 820 verified ✓ 599 passed, ✓ 214 skipped, ✗ 7 failed
+VERIFICATION FAILED
+Время проверки: 15.4 с
+=== ESBMC: fixed (src/fixed/vote_parser.c) ===
+Properties: 826 verified ✓ 826 passed
+VERIFICATION SUCCESSFUL
+Время проверки: 8.6 с

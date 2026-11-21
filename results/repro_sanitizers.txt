@@ -1,0 +1,32 @@
+----- тест 1 (legacy) -----
+test 1: channel=1 n=155 len=56
+==676==ERROR: AddressSanitizer: stack-buffer-overflow on address 0x… at pc 0x… bp 0x… sp 0x…
+SUMMARY: AddressSanitizer: stack-buffer-overflow src/legacy/vote_parser_legacy.c:30 in parse_vote
+----- тест 2 (legacy) -----
+test 2: channel=1 n=0 len=4
+  parse_vote = 0
+src/legacy/vote_parser_legacy.c:39:24: runtime error: division by zero
+----- тест 3 (legacy) -----
+test 3: channel=0 n=2 len=6
+  parse_vote = 0
+  vote_average = 0
+src/legacy/vote_parser_legacy.c:44:27: runtime error: index -1 out of bounds for type 'vote_t *[3]'
+----- тест 4 (legacy) -----
+test 4: channel=3 n=2 len=6
+  parse_vote = 0
+  vote_average = 0
+src/legacy/vote_parser_legacy.c:45:11: runtime error: store to null pointer of type 'struct vote_t'
+----- тест 1 (fixed) -----
+test 1: channel=1 n=155 len=56
+  parse_vote = -1
+----- тест 2 (fixed) -----
+test 2: channel=1 n=0 len=4
+  parse_vote = -1
+----- тест 3 (fixed) -----
+test 3: channel=0 n=2 len=6
+  parse_vote = -1
+----- тест 4 (fixed) -----
+test 4: channel=3 n=2 len=6
+  parse_vote = 0
+  vote_average = 0
+  store_vote = -1

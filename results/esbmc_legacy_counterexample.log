@@ -1,0 +1,521 @@
+ESBMC version 7.11.0 64-bit x86_64 linux
+Target: 64-bit little-endian x86_64-unknown-linux with esbmclibc
+Parsing harness/harness.c
+Parsing src/legacy/vote_parser_legacy.c
+Converting
+Generating GOTO Program
+GOTO program creation time: 0.135s
+GOTO program processing time: 0.002s
+Starting Bounded Model Checking
+Unwinding loop 2 iteration 1   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 2   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 3   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 4   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 5   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 6   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 7   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 8   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 9   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 10   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 11   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 12   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 13   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 14   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 15   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 16   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 17   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 18   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 19   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 20   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 21   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 22   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 23   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 24   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 25   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 26   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 27   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 28   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 29   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 30   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 31   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 32   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 33   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 34   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 35   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 36   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 37   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 38   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 39   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 40   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 41   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 42   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 43   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 44   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 45   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 46   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 47   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 48   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 49   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 50   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 51   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 52   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 53   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 54   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 55   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 56   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 57   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 58   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 59   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 60   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 61   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 62   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 63   file harness/harness.c line 22 column 5 function main
+Unwinding loop 2 iteration 64   file harness/harness.c line 22 column 5 function main
+Unwinding loop 3 iteration 1   file harness/harness.c line 25 column 5 function main
+Unwinding loop 3 iteration 2   file harness/harness.c line 25 column 5 function main
+Unwinding loop 3 iteration 3   file harness/harness.c line 25 column 5 function main
+Unwinding loop 4 iteration 1   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 2   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 3   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 4   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 5   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 6   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 7   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 8   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 9   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 10   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 11   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 12   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 13   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 14   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 15   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 16   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 17   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 18   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 19   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 20   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 21   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 22   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 23   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 24   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 25   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 26   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 27   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 28   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 29   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 30   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 31   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 32   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 33   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 34   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 35   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 36   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 37   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 38   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 39   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 40   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 41   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 42   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 43   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 44   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 45   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 46   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 47   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 48   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 49   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 50   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 51   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 52   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 53   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 54   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 55   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 56   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 57   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 58   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 59   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 60   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 61   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 62   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 63   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 4 iteration 64   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Not unwinding loop 4 iteration 65   file src/legacy/vote_parser_legacy.c line 29 column 5 function parse_vote
+Unwinding loop 5 iteration 1   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 2   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 3   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 4   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 5   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 6   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 7   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 8   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 9   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 10   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 11   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 12   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 13   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 14   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 15   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 16   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 17   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 18   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 19   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 20   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 21   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 22   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 23   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 24   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 25   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 26   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 27   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 28   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 29   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 30   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 31   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 32   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 33   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 34   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 35   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 36   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 37   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 38   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 39   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 40   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 41   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 42   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 43   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 44   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 45   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 46   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 47   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 48   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 49   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 50   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 51   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 52   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 53   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 54   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 55   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 56   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 57   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 58   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 59   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 60   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 61   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 62   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 63   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Unwinding loop 5 iteration 64   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Not unwinding loop 5 iteration 65   file src/legacy/vote_parser_legacy.c line 37 column 5 function vote_average
+Symex completed in: 0.266s (1782 assignments)
+Caching time: 0.023s (removed 99 assertions)
+Slicing time: 0.026s (removed 423 assignments)
+Generated 2660 VCC(s), 721 remaining after simplification (1260 assignments)
+No solver specified; defaulting to Boolector
+Encoding remaining VCC(s) using bit-vector/floating-point arithmetic
+Encoding to solver time: 0.023s
+Solving with solver Boolector 3.2.4
+Runtime decision procedure: 1.299s
+Building error trace
+
+[Counterexample]
+
+
+State 2 file harness/harness.c line 19 column 5 function main thread 0
+----------------------------------------------------
+  buf = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+
+State 3 file harness/harness.c line 20 column 5 function main thread 0
+----------------------------------------------------
+  len = 2 (00000000 00000010)
+
+State 5 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[0] = 1 (00000001)
+
+State 7 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[1] = 0 (00000000)
+
+State 9 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[2] = 0 (00000000)
+
+State 11 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[3] = 0 (00000000)
+
+State 13 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[4] = 0 (00000000)
+
+State 15 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[5] = 0 (00000000)
+
+State 17 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[6] = 0 (00000000)
+
+State 19 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[7] = 0 (00000000)
+
+State 21 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[8] = 0 (00000000)
+
+State 23 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[9] = 0 (00000000)
+
+State 25 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[10] = 0 (00000000)
+
+State 27 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[11] = 0 (00000000)
+
+State 29 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[12] = 0 (00000000)
+
+State 31 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[13] = 0 (00000000)
+
+State 33 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[14] = 0 (00000000)
+
+State 35 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[15] = 0 (00000000)
+
+State 37 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[16] = 0 (00000000)
+
+State 39 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[17] = 0 (00000000)
+
+State 41 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[18] = 0 (00000000)
+
+State 43 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[19] = 0 (00000000)
+
+State 45 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[20] = 0 (00000000)
+
+State 47 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[21] = 0 (00000000)
+
+State 49 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[22] = 0 (00000000)
+
+State 51 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[23] = 0 (00000000)
+
+State 53 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[24] = 0 (00000000)
+
+State 55 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[25] = 0 (00000000)
+
+State 57 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[26] = 0 (00000000)
+
+State 59 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[27] = 0 (00000000)
+
+State 61 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[28] = 0 (00000000)
+
+State 63 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[29] = 0 (00000000)
+
+State 65 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[30] = 0 (00000000)
+
+State 67 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[31] = 0 (00000000)
+
+State 69 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[32] = 0 (00000000)
+
+State 71 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[33] = 0 (00000000)
+
+State 73 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[34] = 0 (00000000)
+
+State 75 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[35] = 0 (00000000)
+
+State 77 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[36] = 0 (00000000)
+
+State 79 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[37] = 0 (00000000)
+
+State 81 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[38] = 0 (00000000)
+
+State 83 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[39] = 0 (00000000)
+
+State 85 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[40] = 0 (00000000)
+
+State 87 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[41] = 0 (00000000)
+
+State 89 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[42] = 0 (00000000)
+
+State 91 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[43] = 0 (00000000)
+
+State 93 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[44] = 0 (00000000)
+
+State 95 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[45] = 0 (00000000)
+
+State 97 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[46] = 0 (00000000)
+
+State 99 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[47] = 0 (00000000)
+
+State 101 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[48] = 0 (00000000)
+
+State 103 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[49] = 0 (00000000)
+
+State 105 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[50] = 0 (00000000)
+
+State 107 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[51] = 0 (00000000)
+
+State 109 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[52] = 0 (00000000)
+
+State 111 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[53] = 0 (00000000)
+
+State 113 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[54] = 0 (00000000)
+
+State 115 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[55] = 0 (00000000)
+
+State 117 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[56] = 0 (00000000)
+
+State 119 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[57] = 0 (00000000)
+
+State 121 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[58] = 0 (00000000)
+
+State 123 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[59] = 0 (00000000)
+
+State 125 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[60] = 0 (00000000)
+
+State 127 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[61] = 0 (00000000)
+
+State 129 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[62] = 0 (00000000)
+
+State 131 file harness/harness.c line 23 column 18 function main thread 0
+----------------------------------------------------
+  buf[63] = 0 (00000000)
+
+State 133 file harness/harness.c line 26 column 9 function main thread 0
+----------------------------------------------------
+  g_slots[0] = &slot_mem[(signed long int)0]
+
+State 134 file harness/harness.c line 26 column 9 function main thread 0
+----------------------------------------------------
+  g_slots[1] = 0
+
+State 135 file harness/harness.c line 26 column 9 function main thread 0
+----------------------------------------------------
+  g_slots[2] = &slot_mem[(signed long int)2]
+
+State 136 file harness/harness.c line 28 column 5 function main thread 0
+----------------------------------------------------
+  v = { .channel=0, .n=0, .v={ -8208, -8208, -16416, 32719 } }
+
+State 137 file src/legacy/vote_parser_legacy.c line 24 column 5 function parse_vote thread 0
+----------------------------------------------------
+  out->channel = { .channel=1, .n=0, .v={ -8208, -8208, -16416, 32719 } }
+
+State 138 file src/legacy/vote_parser_legacy.c line 25 column 5 function parse_vote thread 0
+----------------------------------------------------
+  out->n = { .channel=1, .n=0, .v={ -8208, -8208, -16416, 32719 } }
+
+State 141 file src/legacy/vote_parser_legacy.c line 26 column 5 function parse_vote thread 0
+----------------------------------------------------
+  need = 2 (00000010)
+
+State 142 file src/legacy/vote_parser_legacy.c line 39 column 5 function vote_average thread 0
+----------------------------------------------------
+Violated property:
+  file src/legacy/vote_parser_legacy.c line 39 column 5 function vote_average
+  division by zero
+  (signed int)v->n != 0
+
+
+VERIFICATION FAILED

@@ -1,0 +1,107 @@
+name: Formal Verification
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  esbmc:
+    name: ESBMC (Bounded Model Checking)
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install ESBMC
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq wget unzip grep
+          wget -q https://github.com/esbmc/esbmc/releases/download/v7.11/esbmc-linux.zip -O /tmp/esbmc.zip
+          unzip -q /tmp/esbmc.zip -d /opt/esbmc
+          ESBMC=$(find /opt/esbmc -name esbmc -type f | head -1)
+          chmod +x $ESBMC
+          echo "ESBMC=$ESBMC" >> $GITHUB_ENV
+
+      - name: Run ESBMC verification
+        run: |
+          mkdir -p results
+          ./scripts/run_esbmc.sh all || true  # Не прерываем пайплайн на этом этапе
+
+      - name: Upload ESBMC results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: esbmc-results
+          path: results/
+          retention-days: 7
+
+  frama_c_wp:
+    name: Frama-C/WP (Deductive Verification)
+    runs-on: ubuntu-latest
+    container:
+      image: framac/frama-c:32.1
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Frama-C WP
+        run: |
+          mkdir -p results
+          ./scripts/run_frama_c.sh all
+
+      - name: Check WP results
+        run: |
+          grep -E "\[wp\] Proved goals" results/wp_fixed.log
+
+      - name: Upload WP results
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: wp-results
+          path: results/
+          retention-days: 7
+
+  verification_gate:
+    name: Verification Gate
+    runs-on: ubuntu-latest
+    needs: [esbmc, frama_c_wp]
+    if: always()
+    steps:
+      - name: Download ESBMC results
+        uses: actions/download-artifact@v4
+        with:
+          name: esbmc-results
+          path: results/
+
+      - name: Download WP results
+        uses: actions/download-artifact@v4
+        with:
+          name: wp-results
+          path: results/
+
+      - name: Check ESBMC verification
+        run: |
+          if ! grep -q "VERIFICATION SUCCESSFUL" results/esbmc_fixed.log; then
+            echo "❌ ESBMC: нарушения свойств"
+            exit 1
+          fi
+          echo "✅ ESBMC проверка пройдена"
+
+      - name: Check WP verification
+        run: |
+          P=$(grep -oE "Proved goals: +[0-9]+ / [0-9]+" results/wp_fixed.log | grep -oE "[0-9]+ / [0-9]+")
+          echo "WP: $P"
+          
+          PROVED=$(echo $P | cut -d/ -f1 | tr -d ' ')
+          TOTAL=$(echo $P | cut -d/ -f2 | tr -d ' ')
+          
+          if [ "$PROVED" != "$TOTAL" ]; then
+            echo "❌ WP: доказаны не все цели ($PROVED из $TOTAL)"
+            exit 1
+          fi
+          echo "✅ WP проверка пройдена"
+
+      - name: Final status
+        run: echo "✅ Формальная проверка пройдена"

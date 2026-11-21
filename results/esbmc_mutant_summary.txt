@@ -1,0 +1,6 @@
+=== ESBMC: mutant (src/mutant/vote_parser_mutant.c) ===
+✗ FAILED: 'dereference failure: Access to object out of bounds at file src/mutant/vote_parser_mutant.c line 72 column 9 function vote_average'
+✗ FAILED: 'dereference failure: Access to object out of bounds at file src/mutant/vote_parser_mutant.c line 53 column 9 function parse_vote'
+Properties: 826 verified ✓ 714 passed, ✓ 110 skipped, ✗ 2 failed
+VERIFICATION FAILED
+Время проверки: 6.5 с
