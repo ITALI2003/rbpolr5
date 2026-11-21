@@ -42,6 +42,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: framac/frama-c:32.1
+      options: --user root
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
